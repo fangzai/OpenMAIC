@@ -166,6 +166,7 @@ pnpm dev
 ### 4. 生产环境构建
 
 ```bash
+pnpm build && PORT=28000 pnpm start
 pnpm build && pnpm start
 ```
 
